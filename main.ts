@@ -15,7 +15,10 @@
 // arms on a washout (-3.50%) with a stronger confirmation, for days that fall
 // much further.
 //
-// Dev-window result: to be recorded after grade-local (see commit history).
+// Dev-window result (grade-local, --driver process, run twice, byte-identical):
+// net PnL +16.826514 USDC (+1.68%), 3 round trips (6 fills), win rate 1.00,
+// max drawdown 0.79%, fees 2.421173 USDC (net +14.396541 at 2x fees),
+// action_log_sha256 19cabc885b27cd7184d5d17fc694779b3e1d181181e3c26fdccdf904986f1723.
 // All comparisons are integer basis-point math on the raw close values, so the
 // two graded runs are byte-identical. No clock, no environment, no randomness.
 
